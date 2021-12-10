@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Corinthia&family=Lobster&family=Oswald:wght@300;700&family=Readex+Pro:wght@400;500&family=Roboto+Mono:ital,wght@1,100&family=Roboto:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+<h1 class= "name"> calculator</h1>
+<div class="first">
+<input  type="text" value="" id="result" placeholder="result"/>
+<input class="a" type="button" value="c" onclick="clearScreen()"/>
+</div>
+
+<div class="second">
+<input type="button" value="1"onclick="sakshi(1)"/>
+<input type="button"value="2"onclick="sakshi(2)"/>
+<input type="button" value="3" onclick="sakshi(3)"/>
+<input type="button"value="+" onclick="sakshi('+')"/>
+
+
+</div>
+
+<div class="third">
+<input type="button" value="4" onclick="sakshi(4)"/>
+<input type="button"value="5" onclick="sakshi(5)"/>
+<input type="button"value="6" onclick="sakshi(6)"/>
+<input type="button" value="-" onclick="sakshi('-')"/>
+
+</div>
+
+<div class="fourth">
+<input type="button" value="7" onclick="sakshi(7)"/>
+<input type="button"value="8" onclick="(8)"/>
+<input type="button"value="9" onclick="(9)"/>
+<input type="button" value="x" onclick="sakshi('x')"/>
+</div>
+
+
+<div class="fifth">
+
+  <input type="button" value="/" onclick="sakshi('/')"/>
+  <input type="button"value="0" onclick="sakshi(0)"/>
+  <input type="button"value="." onclick="sakshi('.')"/>
+  <input type="button"value="=" onclick="result.value=eval(result.value)"/>
+  
+  </div>
+
+
+
+
+
+
+    <script type="text/javascript" src="index.js"> </script>
+
+  </body>
+  </html>
